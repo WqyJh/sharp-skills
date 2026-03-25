@@ -1,68 +1,87 @@
 # sharp-skills
 
-A curated skills marketplace repository for frontend presentation experiences that go beyond PPT.
+A general-purpose marketplace repository for reusable agent skills.
 
-This repository is inspired by the structure and distribution style of [obra/superpowers](https://github.com/obra/superpowers), but focuses on reusable presentation-building skills.
+`sharp-skills` is designed to be a clean, extensible home for high-quality skills that can be installed, browsed, packaged, and maintained like a serious open source project.
 
-## Included skills
+The repository currently includes two presentation-oriented skills as its initial published entries, but the project itself is **not** limited to frontend presentation workflows.
 
-### 1. presentation-microsite
+## Goals
+
+- Provide a curated home for reusable agent skills
+- Keep skill source, packaged artifacts, and marketplace metadata in one place
+- Make skills easy to discover, review, install, and extend
+- Maintain a repository structure that can scale beyond a handful of skills
+
+## Current published skills
+
+### presentation-microsite
 Build narrative microsites, scrollytelling pages, launch pages, annual report experiences, and interactive showcase websites.
 
-Best for:
-- scrollytelling
-- narrative microsites
-- campaign pages
-- investor or strategy stories
-- presentation websites meant to be shared after the meeting
-
-### 2. presentation-stage-app
+### presentation-stage-app
 Build linear stage-controlled presentation web apps for live talks, demos, keynotes, internal reviews, and polished deck-like experiences.
-
-Best for:
-- keynote-style presentations
-- live demos
-- keyboard-controlled web decks
-- presenter mode
-- replacing PowerPoint with a component-based frontend presentation app
 
 ## Repository layout
 
 ```text
 .claude-plugin/          Marketplace metadata
-.codex/                  Codex installation notes
+.codex/                  Codex-oriented installation notes
 skills/                  Skill source folders
-  presentation-microsite/
-  presentation-stage-app/
+  <skill-name>/
 dist/                    Packaged .skill artifacts
-docs/                    Extra repository documentation
+docs/                    Repository documentation and indexes
+skills-index.json        Machine-readable published skill index
 ```
 
-## Install / use
+## Principles
 
-### OpenClaw
-Copy a skill source folder into your workspace skills directory, or use the packaged `.skill` artifact if your workflow expects packaged skills.
+- Keep `SKILL.md` concise and trigger-aware
+- Put detailed guidance in `references/` when needed
+- Prefer maintainable structure over one-off dumps
+- Package published skills so they can be distributed cleanly
+- Keep repository metadata in sync with actual published content
 
-### Codex / general agent workflows
-Read the relevant `SKILL.md` and install/copy the skill into your agent's supported skills directory.
+## Installation
 
-## Current focus
+### Generic workflow
 
-This marketplace starts with two presentation-focused skills, but is designed to grow into a broader library around:
-- presentation systems
-- storytelling UX
-- motion systems
-- demo sites
-- media-rich frontend communication
+1. Clone this repository.
+2. Choose a skill from `skills/`.
+3. Copy the skill folder into your agent platform's supported skills directory, or use the packaged artifact from `dist/` if your workflow expects `.skill` packages.
+4. Start a new session and trigger the skill with an appropriate request.
+
+### Codex-like workflows
+See `.codex/INSTALL.md`.
+
+## Publishing model
+
+A published skill should usually include:
+- a complete `SKILL.md`
+- any required `references/`, `scripts/`, or `assets/`
+- a packaged `.skill` artifact in `dist/`
+- an entry in `skills-index.json`
+- corresponding documentation updates when needed
 
 ## Contributing
 
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+In short:
 1. Add a new skill under `skills/<skill-name>`
-2. Keep `SKILL.md` concise and trigger-aware
-3. Put detailed guidance in `references/`
-4. Package the skill into `dist/` when ready
-5. Update metadata files if you add a new published skill
+2. Keep the skill focused and reusable
+3. Package it into `dist/`
+4. Update `skills-index.json`
+5. Update docs if the published catalog changes
+
+## Roadmap direction
+
+The repository starts with presentation-focused skills, but is intended to grow into a broader marketplace covering categories such as:
+- development workflows
+- content and media
+- research and analysis
+- operations and automation
+- design systems and communication
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See [LICENSE](LICENSE).

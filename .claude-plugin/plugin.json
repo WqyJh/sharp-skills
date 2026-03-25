@@ -1,7 +1,7 @@
 {
   "name": "sharp-skills",
-  "description": "Presentation-focused skills marketplace: microsites, stage apps, scrollytelling, and web-native alternatives to PPT",
-  "version": "0.1.0",
+  "description": "A general-purpose marketplace repository for reusable agent skills",
+  "version": "0.1.1",
   "author": {
     "name": "WqyJh",
     "email": "qiying-wang@qq.com"
@@ -9,5 +9,5 @@
   "homepage": "https://github.com/WqyJh/sharp-skills",
   "repository": "https://github.com/WqyJh/sharp-skills",
   "license": "MIT",
-  "keywords": ["skills", "marketplace", "presentation", "microsite", "scrollytelling", "frontend"]
+  "keywords": ["skills", "marketplace", "agent", "automation", "workflows", "plugins"]
 }
