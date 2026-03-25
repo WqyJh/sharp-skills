@@ -1,0 +1,20 @@
+{
+  "name": "sharp-skills-marketplace",
+  "description": "Marketplace for sharp presentation-oriented agent skills",
+  "owner": {
+    "name": "WqyJh",
+    "email": "qiying-wang@qq.com"
+  },
+  "plugins": [
+    {
+      "name": "sharp-skills",
+      "description": "Presentation-focused skills marketplace: microsites, stage apps, scrollytelling, and web-native alternatives to PPT",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "WqyJh",
+        "email": "qiying-wang@qq.com"
+      }
+    }
+  ]
+}

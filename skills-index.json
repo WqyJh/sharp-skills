@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "presentation-microsite",
+      "path": "skills/presentation-microsite",
+      "package": "dist/presentation-microsite.skill",
+      "category": "presentation",
+      "tags": ["microsite", "scrollytelling", "narrative", "frontend", "ux"]
+    },
+    {
+      "name": "presentation-stage-app",
+      "path": "skills/presentation-stage-app",
+      "package": "dist/presentation-stage-app.skill",
+      "category": "presentation",
+      "tags": ["stage-app", "slides", "keynote", "frontend", "presenter-mode"]
+    }
+  ]
+}
