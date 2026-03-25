@@ -11,6 +11,7 @@ The repository currently includes two presentation-oriented skills as its initia
 - Provide a curated home for reusable agent skills
 - Keep skill source, packaged artifacts, and marketplace metadata in one place
 - Make skills easy to discover, review, install, and extend
+- Support mainstream code agents with clear platform entry points
 - Maintain a repository structure that can scale beyond a handful of skills
 
 ## Current published skills
@@ -70,6 +71,23 @@ In short:
 1. Add a new skill under `skills/<skill-name>`
 2. Keep the skill focused and reusable
 3. Package it into `dist/`
+4. Update `skills-index.json`
+5. Update docs if the published catalog changes
+
+## Roadmap direction
+
+The repository starts with presentation-focused skills, but is intended to grow into a broader marketplace covering categories such as:
+- development workflows
+- content and media
+- research and analysis
+- operations and automation
+- design systems and communication
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+.
+ `dist/`
 4. Update `skills-index.json`
 5. Update docs if the published catalog changes
 

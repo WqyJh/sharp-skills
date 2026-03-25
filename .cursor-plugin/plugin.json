@@ -1,5 +1,6 @@
 {
   "name": "sharp-skills",
+  "displayName": "sharp-skills",
   "description": "A general-purpose marketplace repository for reusable agent skills",
   "version": "0.2.0",
   "author": {
@@ -9,5 +10,6 @@
   "homepage": "https://github.com/WqyJh/sharp-skills",
   "repository": "https://github.com/WqyJh/sharp-skills",
   "license": "MIT",
-  "keywords": ["skills", "marketplace", "agent", "automation", "workflows", "plugins"]
+  "keywords": ["skills", "marketplace", "agent", "automation", "workflows", "plugins"],
+  "skills": "./skills/"
 }

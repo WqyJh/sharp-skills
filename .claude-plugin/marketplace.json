@@ -9,7 +9,7 @@
     {
       "name": "sharp-skills",
       "description": "A general-purpose marketplace repository for reusable agent skills",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "source": "./",
       "author": {
         "name": "WqyJh",

@@ -1,0 +1,6 @@
+{
+  "name": "sharp-skills",
+  "description": "A general-purpose marketplace repository for reusable agent skills",
+  "version": "0.2.0",
+  "contextFileName": "GEMINI.md"
+}

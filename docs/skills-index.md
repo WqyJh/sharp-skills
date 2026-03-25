@@ -18,3 +18,4 @@ Build linear stage-controlled presentation web apps for live talks, demos, keyno
 
 - This repository is a general-purpose marketplace, even if the initial published catalog is presentation-heavy.
 - The machine-readable source of truth for published entries lives in `skills-index.json`.
+- The repository is maintained with multi-platform code agent support in mind, similar in spirit to `superpowers`.
